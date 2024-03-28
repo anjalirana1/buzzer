@@ -1,0 +1,45 @@
+:root{
+    --PrimaryColor: hsla(27, 100%, 47%, 1);
+    --SecondaryColor: hsla(38, 100%, 55%, 1);
+    --gradientColor: linear-gradient (to right, hsl(187, 85%, 43%),hsl(199, 100%, 33%)) ;
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: rgb(240, 240, 246);
+    --cardBG: rgb(225, 225, 235);
+    --textColor: hsl(240, 4%, 36%);
+    --cardHover: rgb(255, 255, 255);
+  }
+.main{
+    width: 100%;
+    top: 4rem;
+    clip-path: ellipse(71% 59% at 50% 40%);
+}
+
+.box{
+   background-color: rgb(255, 255, 255);
+   width: 100%;
+   height: 20rem;
+   -webkit-box-shadow: inset 7px -21px 38px -14px rgba(237,237,237,1);
+-moz-box-shadow: inset 7px -21px 38px -14px rgba(237,237,237,1);
+box-shadow: inset 7px -21px 38px -14px rgba(237,237,237,1);
+}
+
+.slider-box-text{
+    margin-top: 10rem;
+    color: #212529;
+    
+}
+.hi-text{
+    font-size: 5rem;
+    color: var(--SecondaryColor);
+}
+.h5-text{
+    color: var(--SecondaryColor);
+}
+.home-img{
+    width: 100%;
+    height: 20rem;
+}
